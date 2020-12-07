@@ -1,0 +1,69 @@
+body {
+  background-color:#C1DBCB ;
+}
+
+#nav_bar_buttons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline block;
+    background-color:thistle;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+} 
+
+#nav_bar_button_home {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    background-color: thistle;    
+}
+
+#nav_bar_button_shop {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    background-color: thistle;    
+}
+
+#nav_bar_button_about {
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    background-color: thistle;    
+}
+
+#nav_bar_button_contact {
+    float: right;
+    display: block;
+    padding: 14px 16px;
+    background-color: thistle;    
+}
+
+
+#nav_bar_button_home:hover, #nav_bar_button_contact:hover,#nav_bar_button_about:hover,#nav_bar_button_shop:hover {
+    background-color: violet;
+}
+
+#twitch_embed_all {
+    display: inline block;
+    overflow:hidden;
+}
+
+#twitch_player_embed {
+float: left;
+margin: auto;
+position: relative;
+}
+
+#twitch_chat_embed {
+    float: left;
+    margin: auto;
+    position: relative;
+}
+
+#contact_me_form_div {
+    position: relative;
+    margin: auto;
+}
